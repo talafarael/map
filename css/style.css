@@ -1,0 +1,51 @@
+body {
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  /* TODO pin on top */
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 50px;
+  position: fixed;
+  top: 0;
+}
+
+#div_search-svg {
+  background-color: rgba(0, 0, 0, 0.2);
+
+  border: 2px solid black;
+  border-right: 0;
+
+  border-radius: 25px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+
+  width: 30px;
+  height: 30px;
+}
+
+#div_search-svg svg {
+  margin: 11px 0 0 11px;
+}
+
+#input_search {
+  background-color: rgba(0, 0, 0, 0.2);
+
+  border-radius: 25px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+
+  border: 2px solid black;
+  border-left: 0;
+
+  height: 34px;
+  width: 300px;
+
+  font-size: 15px;
+  position: relative;
+}
