@@ -1,3 +1,4 @@
 $(Document).ready(()=>{
     $('.menu').hide()
+ 
 })
