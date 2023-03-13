@@ -20,10 +20,10 @@ body {
   top: 0;
   flex-direction: row-reverse;
 }
-
+/* 
 .div_search {
-  width: 335px;
-}
+  width: 35px;
+} */
 
 .div_svg-submit-search {
   position: absolute;
@@ -83,6 +83,7 @@ body {
   background: red;
   height: 100%;
   width: 40%;
+  
 }
 
 .main {
@@ -92,3 +93,12 @@ body {
   height: 94%;
   width: 100%;
 }
+<<<<<<< Updated upstream:Pomawo/css/style.css
+=======
+
+.block-bg {
+  width: 600px;
+  height: 200px;
+  background-image: url('');
+}
+>>>>>>> Stashed changes:html/style.css
