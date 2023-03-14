@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+svg {
+  width: auto;
+  height: auto;
+}
+
+.bar {
+  height: 10vh;
+  width: 100vw;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+}
+
+.search {
+  margin-right: 20px;
+}
+
+.svg_search {
+  width: 40px;
+  height: 40px;
+}
+
+.input_search {
+  height: 30px;
+  width: 200px;
+  border: 2px solid;
+  border-left: 0.5px solid;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  /* align-items: center; */
+}
+
+.body {
+  width: 100vw;
+  height: 90vh;
+  background: gray;
+}
